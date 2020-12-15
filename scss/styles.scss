@@ -1,23 +1,5 @@
-$dark-cyan: hsl(185, 75%, 39%);
-$very-dark-desaturated: hsl(229, 23%, 23%);
-$dark-grayish-blue: hsl(227, 10%, 46%);
-$dark-gray: hsl(0, 0%, 59%);
-
-@mixin footerDates {
-    text-align: center;
-
-        h3 {
-            font-size: 18px;
-            margin-bottom: 5px;
-        }
-
-        p {
-            font-size: 10px;
-            letter-spacing: 1px;
-            color: $dark-gray;
-            margin: 0;
-        }
-}
+@import 'variables';
+@import 'mixins';
 
 html {
     box-sizing: border-box;

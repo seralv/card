@@ -1,0 +1,15 @@
+@mixin footerDates {
+    text-align: center;
+
+        h3 {
+            font-size: 18px;
+            margin-bottom: 5px;
+        }
+
+        p {
+            font-size: 10px;
+            letter-spacing: 1px;
+            color: $dark-gray;
+            margin: 0;
+        }
+}
